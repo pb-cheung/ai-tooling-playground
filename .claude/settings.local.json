@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__filesystem__list_directory",
+      "mcp__filesystem__read_text_file",
+      "mcp__filesystem__list_directory_with_sizes",
+      "mcp__filesystem__create_directory",
+      "mcp__filesystem__write_file",
+      "Bash(gh repo:*)",
+      "mcp__github__search_repositories",
+      "Bash(git config:*)",
+      "Bash(git pull:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(git reset:*)",
+      "WebFetch(domain:www.bloomberg.com)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "filesystem"
+  ]
+}
